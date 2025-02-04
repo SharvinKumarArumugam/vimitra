@@ -1,9 +1,9 @@
-pip install matplotlib
+
 
 import streamlit as st
 
 import numpy as np
-import matplotlib.pyplot as plt
+
 
 # Function to display ASCII birthday cake
 def birthday_cake():
