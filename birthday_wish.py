@@ -29,9 +29,9 @@ bby_name = st.text_input("Enter your name Chellow:", "")
 if st.button("Generate Wish"):
     if bby_name:
         st.text("❤️❤❤️❤❤️❤❤️❤❤️❤❤️❤❤️❤❤️❤❤️❤❤️❤❤️❤❤️❤❤️❤❤️❤❤️❤")
-        st.subheader(f"🎉 Happy Birthday, {bby_name} Chellow! 🎉          ❤️❤❤️")
-        st.text("I love you a lot... I miss you a lot, bby! ❤️             ❤️❤❤️")
-        st.text("Sharvin ❤️ Vimitra                                        ❤️❤❤️")
+        st.subheader(f"🎉 Happy Birthday, {bby_name} Chellow! 🎉          ")
+        st.text("I love you a lot... I miss you a lot, bby! ❤️             ")
+        st.text("Sharvin ❤️ Vimitra                                        ")
         st.text("❤️❤❤️❤❤️❤❤️❤❤️❤❤️❤❤️❤❤️❤❤️❤❤️❤❤️❤❤️❤❤️❤❤️❤❤️❤")
         
         st.text(birthday_cake())  # Display ASCII cake
